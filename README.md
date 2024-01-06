@@ -8,6 +8,61 @@ Como comecei meus estudos em Go, decidi adaptar a lista que a plataforma me apre
 
 Espero que, até o final, eu tenha adquirido de forma **Hardcode** bastante habilidade com essa tecnologia, que até então meu conhecimento não passa de um simples "Hello, World!" :).
 
+## 🏆 Conquistas da Jornada
+
+> 🧑‍💻 EM DESENVOLVIMENTO
+
+Listei com ajuda do ChatGpt algumas coisas que não seram seguidas a riscas, pois não faço ideia de como trabalhar com o Go,
+foi mais coisas que é possivel fazer com Java e Javascript.
+
+
+✅ Montar e configurar ambientes em Golang: 
+
+- Golang: Configurar o ambiente de desenvolvimento Go usando GOPATH ou módulos Go.
+
+🏅 Análise da API REST com monitoramento de saúde:
+
+- Golang: Use bibliotecas como "github.com/gin-gonic/gin" para criar APIs REST e explore ferramentas de monitoramento e análise específicas do ecossistema Go.
+
+🏅 Segurança de sessões via token:
+
+- Golang: Use bibliotecas como "github.com/dgrijalva/jwt-go" para lidar com tokens JWT.
+
+🏅 Implementar processo de memória cache:
+
+- Golang: Use bibliotecas como "github.com/patrickmn/go-cache" para implementar cache em memória.
+
+🏅 Trabalhar com filas e eventos:
+
+- Golang: Use bibliotecas como "github.com/nsqio/go-nsq" para filas e "github.com/nats-io/nats.go" para eventos.
+
+🏅 Mapeamento de entidades (se for possivel):
+
+- Golang: Use tags de estrutura para mapear entidades.
+
+🏅 Mapeamento de entidades (se possivel):
+
+- Golang: Use bibliotecas como "github.com/jinzhu/copier" ou atribuição direta de campos.
+
+🏅 Construir relatórios (Se for possivel):
+
+- Golang: Similar ao item anterior.
+
+🏅 Visualização orientada a eventos:
+
+- Golang: Use bibliotecas como "github.com/gorilla/websocket" para comunicação em tempo real.
+
+🏅 Desenvolvimento web:
+
+- Golang: Use frameworks web como "github.com/gin-gonic/gin" ou "github.com/labstack/echo".
+
+🏅 Acesso a dados
+
+- Golang: Use bibliotecas como "github.com/jinzhu/gorm" para acessar dados de bancos.
+
+- Golang: Use "database/sql" com drivers específicos para mapear consultas SQL.
+
+
 ## Tecnologias
 
 - [Ubuntu 22.04.3 LTS](https://ubuntu.com/download/desktop): Sistema Operacional.
@@ -18,7 +73,7 @@ Espero que, até o final, eu tenha adquirido de forma **Hardcode** bastante habi
 - [Ferramenta ABC](#): Em construçao.
 
 
-## Configuração do Ambiente em Linux
+## Configuração do Ambiente em Linux 🛫
 
 As configurações asseguir apenas o processo de instalação do Ubuntu e criação do repositorio no Github foram desconsiderados.
 
