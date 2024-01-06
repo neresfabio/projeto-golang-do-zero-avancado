@@ -19,7 +19,9 @@ func main() {
 }
 
 ```
-Depois de instalar e configurar, criar o repositorio na minha area de trabalho, tentei criar meu primeiro "Hello, World!". Usando o script acima, a propria IDE me informa o seguinte informação:
+Depois de instalar e configurar, criar o repositorio na minha area de trabalho, tentei criar meu primeiro "Hello, World!". Usando o script acima, a propria IDE me informa a seguinte informação:
+
+![Imagem IDE com informação de erro](/_img/01.png)
 
 ```
 gopls was not able to find modules in your workspace.
@@ -35,6 +37,8 @@ https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.go list
 >usando um arquivo go.work para especificar vários módulos.
 >Consulte a documentação para obter mais informações sobre como configurar seu espaço de trabalho:
 >https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.go lista
+
+![Imagem IDE com informação de erro](/_img/02.png)
 
 ## Chatgpt
 
@@ -93,6 +97,8 @@ go: creating new go.mod: module localhost/neres/hello
 go: to add module requirements and sums:
     go mod tidy
 ```
+![Imagem IDE do go.mod criado](/_img/03.png)
+
 O comando `go mod init` é usado para inicializar um novo módulo Go em um projeto. Quando você executa este comando, ele cria um arquivo `go.mod` na raiz do seu projeto. Parece que você já executou o comando e obteve a mensagem indicando que o módulo foi criado com sucesso.
 
 Isso criará um módulo com o caminho `localhost/neres/hello`. O arquivo `go.mod` gerado pelo comando conterá essa informação.
@@ -108,3 +114,5 @@ $go run .
 
 Oi, Mundo!
 ```
+![Imagem IDE do go.mod criado](/_img/04.png)
+
