@@ -20,7 +20,7 @@ Espero que, até o final, eu tenha adquirido de forma **Hardcode** bastante habi
 
 ## Configuração do Ambiente em Linux
 
-As configurações asseguir apenas o processo de instalação do Ubuntu e criação do repositorio no Github nforam desconsiderados.
+As configurações asseguir apenas o processo de instalação do Ubuntu e criação do repositorio no Github foram desconsiderados.
 
 Mas se preciso for, tem vários conteúdos na internet de como fazer.
 
@@ -93,3 +93,25 @@ Hi neresfabio! You've successfully authenticated, but GitHub does not provide sh
 ```
 
 **Obs: Com minha conta criada no Github criei meu repositorio e em seguida fiz o processo acima referente ao Git e conexão com o Github, **"NA MINHA MAQUINA FUNCIONA"** se estiver tendo dificuldade recomendo pesquisar nos repositórios, foruns ou Youtube.**
+
+### _Go
+
+Para configurar o ambiente Go no Linux, siga os seguintes passos:
+
+**I. Instale o Go usando o gerenciador de pacotes da sua distribuição. Exemplo para o Ubuntu:**
+
+```bash
+   sudo apt-get update
+   sudo apt-get install golang
+```
+
+**II. Configure as variáveis de ambiente no seu arquivo de perfil (ex: ~/.bashrc):**
+
+```bash
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+```
+**III. Reinicie o terminal ou execute source ~/.bashrc para aplicar as alterações.**
+Execute o seguinte comando para viasualizar a versão do Go: ```go version```
+
