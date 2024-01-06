@@ -2,14 +2,20 @@
 
 Este repositório contém um projeto desenvolvido em Go, abrangendo desde configuração de ambiente até tópicos avançados.
 
+Minha motivação partir após responder um questionário de uma plataforma, esse questionario era para saber o grau de conhecimneto que tenho sobre algumas tecnologias como Java, Node, Back end e Front end.
+
+Como iniciei meu estudo sobre Go resolvi adaptar a lista que a plataforma me apresentou e adaptei para esse projeto.
+
+Expero que até o final, tenha adquirido de forma **Hardcode** bastante habilidade com essa tecnologia que até então meu conhecimento não passa de um simples Hello, World! :).
+
 ## Tecnologias
 
 - [Ubuntu 22.04.3 LTS](https://ubuntu.com/download/desktop): Sistema Operacional.
 - [Git](https://git-scm.com/): Git é um sistema de controle de versão distribuído gratuito e de código aberto.
 - [Github](https://github.com/): GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
 - [Go](https://golang.org/): Linguagem de programação principal do projeto.
-- [Biblioteca XYZ](#): Utilizada para [descreva a funcionalidade].
-- [Ferramenta ABC](#): Usada para [descreva a finalidade].
+- [Biblioteca XYZ](#): Em construção.
+- [Ferramenta ABC](#): Em construçao.
 
 
 ## Configuração do Ambiente em Linux
