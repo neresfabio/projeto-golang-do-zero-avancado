@@ -1,12 +1,12 @@
 # Projeto do Zero ao Avançado com Go Lang
 
-Este repositório contém um projeto desenvolvido em Go, abrangendo desde configuração de ambiente até tópicos avançados.
+Este repositório contém um projeto desenvolvido em Go, abrangendo desde a configuração do ambiente até tópicos avançados.
 
-Minha motivação partir após responder um questionário de uma plataforma, esse questionario era para saber o grau de conhecimneto que tenho sobre algumas tecnologias como Java, Node, Back end e Front end.
+Minha motivação surgiu após responder a um questionário de uma plataforma. Esse questionário tinha como objetivo avaliar meu conhecimento em algumas tecnologias, como Java, Node, Back-end e Front-end.
 
-Como iniciei meu estudo sobre Go resolvi adaptar a lista que a plataforma me apresentou e adaptei para esse projeto.
+Como comecei meus estudos em Go, decidi adaptar a lista que a plataforma me apresentou para este projeto.
 
-Expero que até o final, tenha adquirido de forma **Hardcode** bastante habilidade com essa tecnologia que até então meu conhecimento não passa de um simples Hello, World! :).
+Espero que, até o final, eu tenha adquirido de forma **Hardcode** bastante habilidade com essa tecnologia, que até então meu conhecimento não passa de um simples "Hello, World!" :).
 
 ## Tecnologias
 
