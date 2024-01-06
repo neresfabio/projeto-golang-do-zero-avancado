@@ -86,4 +86,4 @@ Hi neresfabio! You've successfully authenticated, but GitHub does not provide sh
 
 ```
 
-**Obs: Com minha conta criada no Github criei meu repositorio e em seguida fiz o processo acima referente ao Git e conexão com o Gihub, "NA MINHA MAQUINA FUNCIONA" se estiver tendo dificuldade recomendo pesquisar nos repositórios, foruns ou Youtube.**
+**Obs: Com minha conta criada no Github criei meu repositorio e em seguida fiz o processo acima referente ao Git e conexão com o Github, **"NA MINHA MAQUINA FUNCIONA"** se estiver tendo dificuldade recomendo pesquisar nos repositórios, foruns ou Youtube.**
