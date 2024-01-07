@@ -1,4 +1,4 @@
-# Q que preciso saber sobre Golang?
+# O que preciso saber sobre Golang?
 
 Go, também conhecida como Golang, é uma linguagem de programação de código aberto desenvolvida pelo Google. Aqui estão alguns pontos-chave que podem ajudá-lo a entender melhor sobre Go:
 
