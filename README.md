@@ -8,6 +8,8 @@ Como comecei meus estudos em Go, decidi adaptar a lista que a plataforma me apre
 
 Espero que, até o final, eu tenha adquirido de forma **Hardcode** bastante habilidade com essa tecnologia, que até então meu conhecimento não passa de um simples "Hello, World!" :).
 
+## [O que preciso saber sobre Golang?](https://github.com/neresfabio/projeto-golang-do-zero-avancado/blob/master/_intro/oque.md)
+
 ## 🏆 Conquistas da Jornada
 
 > 🧑‍💻 EM DESENVOLVIMENTO
@@ -91,7 +93,7 @@ O pacote fmt é muito útil para operações de entrada e saída formatadas, al�
 
 
 
-## Configuração do Ambiente em Linux 🛫
+## Configuração do Ambiente Linux 🛫
 
 As configurações asseguir apenas o processo de instalação do Ubuntu e criação do repositorio no Github foram desconsiderados.
 
