@@ -116,3 +116,128 @@ Oi, Mundo!
 ```
 ![Imagem IDE do go.mod criado](/_img/04.png)
 
+## PACOTE `fmt`
+
+Esse pacote será bastante utilizado nesse primeiro contato.
+
+**I. Println**: 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    nome := "Alice"
+    idade := 30
+
+    fmt.Println("Nome:", nome, "Idade:", idade)
+}
+
+```
+
+**II. Printf**: 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    nome := "Bob"
+    idade := 25
+
+    fmt.Printf("Nome: %s, Idade: %d\n", nome, idade)
+}
+
+```
+
+**III. Sprintf**: 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    nome := "Charlie"
+    idade := 35
+
+    resultadoFormatado := fmt.Sprintf("Nome: %s, Idade: %d", nome, idade)
+    fmt.Println(resultadoFormatado)
+}
+
+```
+
+**IV. Scanf**: 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    var nome string
+    var idade int
+
+    fmt.Print("Digite o nome: ")
+    fmt.Scanln(&nome)
+
+    fmt.Print("Digite a idade: ")
+    fmt.Scanln(&idade)
+
+    fmt.Printf("Nome: %s, Idade: %d\n", nome, idade)
+}
+
+```
+## Variaveis e tipos de dados
+
+![Imagem IDE do go.mod criado](/_img/tiposDB.png)
+
+**1. Declaração e Atribuição de Valores as Variaveis**
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    // Declaração e atribuição de variáveis
+    var idade int
+    idade = 25
+
+    nome := "João" // Inferência de tipo
+    altura := 1.75 // Inferência de tipo
+
+    // Impressão dos valores
+    fmt.Println("Nome:", nome)
+    fmt.Println("Idade:", idade)
+    fmt.Println("Altura:", altura)
+}
+
+```
+**2. Tipos de Dados Básicos:**
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    // Tipos de dados básicos
+    var numeroInteiro int
+    numeroInteiro = 42
+
+    var numeroDecimal float64
+    numeroDecimal = 3.14
+
+    texto := "Golang"
+    
+    verdadeiro := true
+
+    // Impressão dos valores
+    fmt.Println("Número Inteiro:", numeroInteiro)
+    fmt.Println("Número Decimal:", numeroDecimal)
+    fmt.Println("Texto:", texto)
+    fmt.Println("Booleano:", verdadeiro)
+}
+
+```
+Esses exemplos demonstram a declaração e atribuição de variáveis em Go, bem como os tipos de dados básicos como int, float64, string e boolean. A inferência de tipo (:=) é usada quando o tipo pode ser deduzido automaticamente pelo compilador.
+

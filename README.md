@@ -69,9 +69,26 @@ foi mais coisas que é possivel fazer com Java e Javascript.
 - [Git](https://git-scm.com/): Git é um sistema de controle de versão distribuído gratuito e de código aberto.
 - [Github](https://github.com/): GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.
 - [Go](https://golang.org/): Linguagem de programação principal do projeto.
-- [VScode](#): O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. 
-- [Biblioteca XYZ](#): Em construção.
+- [VScode](#): O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
+
+### Pacotes
+- [fmt](https://pkg.go.dev/fmt): O pacote `fmt` em Go é utilizado para formatação de entrada e saída. Ele fornece funcionalidades para imprimir e formatar texto no console, além de manipular strings de maneira eficiente.
+
+**Funcionalidades fmt**:
+
+`Println` é usada para imprimir valores no console, adicionando uma nova linha ao final.
+
+`Printf` permite formatar e imprimir texto com base em um formato específico, semelhante à função `printf` em outras linguagens.
+
+`Sprintf` é usado para formatar strings e retornar o resultado formatado como uma nova string, sem imprimir no console.
+
+`Scanf` é usado para ler valores do console com base em um formato específico.
+
+O pacote fmt é muito útil para operações de entrada e saída formatadas, além de ser amplamente utilizado para depuração e exibição de informações durante o desenvolvimento.
+
 - [Ferramenta ABC](#): Em construçao.
+
+
 
 
 ## Configuração do Ambiente em Linux 🛫
