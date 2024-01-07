@@ -241,3 +241,34 @@ func main() {
 ```
 Esses exemplos demonstram a declaração e atribuição de variáveis em Go, bem como os tipos de dados básicos como int, float64, string e boolean. A inferência de tipo (:=) é usada quando o tipo pode ser deduzido automaticamente pelo compilador.
 
+## Desafios Iniciante 
+
+### Manipulação de Variáveis e Tipos de Dados em Go:
+
+**Objetivo**: Criar um programa em Go que recebe informações básicas de um usuário, como nome, idade e altura, e exibe essas informações formatadas.
+
+**Passos**:
+
+1. Crie um programa Go que inclua as bibliotecas necessárias.
+2. Declare variáveis para armazenar o nome (string), idade (int) e altura (float64) do usuário.
+3. Utilize a função fmt.Print para solicitar ao usuário que insira seu nome.
+4. Utilize a função fmt.Scanln para ler o nome inserido pelo usuário e armazená-lo na variável correspondente.
+5. Repita os passos 3-4 para solicitar e armazenar a idade e altura do usuário.
+6. Crie uma mensagem formatada que inclua as informações coletadas e armazenadas nas variáveis.
+7. Utilize a função fmt.Println para exibir a mensagem formatada na tela.
+
+*Exemplo de saída esperada*:
+```yml
+Digite seu nome: Alice
+Digite sua idade: 25
+Digite sua altura (em metros): 1.65
+
+Informações do Usuário:
+Nome: Alice
+Idade: 25 anos
+Altura: 1.65 metros
+
+```
+*Dica*: Lembre-se de converter a idade para string ao incorporá-la à mensagem formatada.
+
+#### Este desafio é projetado para ajudar a praticar a declaração de variáveis, entrada/saída básica e formatação em Go. Boa sorte!
