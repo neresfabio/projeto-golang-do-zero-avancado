@@ -18,9 +18,13 @@ Listei com ajuda do ChatGpt algumas coisas que não seram seguidas a riscas, poi
 foi mais coisas que é possivel fazer com Java e Javascript.
 
 
-✅ [Montar e configurar ambientes em Golang](#): 
+✅ [Configuração do Ambiente Linux](#configuração-do-ambiente-linux-🛫): 
+
+- Git/GitHub: Configuração e conexão com o github. 
 
 - Golang: Configurar o ambiente de desenvolvimento Go usando GOPATH ou módulos Go.
+
+🏅 [Fundamentos](/_intro/fundamentos.md):
 
 🏅 Análise da API REST com monitoramento de saúde:
 
