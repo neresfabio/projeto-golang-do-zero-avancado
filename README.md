@@ -14,8 +14,8 @@ Espero que, até o final, eu tenha adquirido de forma **Hardcode** bastante habi
 
 > 🧑‍💻 EM DESENVOLVIMENTO
 
-Listei com ajuda do ChatGpt algumas coisas que não seram seguidas a riscas, pois não faço ideia de como trabalhar com o Go,
-foi mais coisas que é possivel fazer com Java e Javascript.
+Listei com ajuda do ChatGpt algumas coisas que não seram seguidas a risca, pois não faço ideia de como trabalhar com o Go,
+foi mais coisas que são possiveis fazer com Java e Javascript.
 
 
 ✅ [Configuração do Ambiente Linux](#configuração-do-ambiente-linux-🛫): 
