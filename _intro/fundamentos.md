@@ -244,6 +244,7 @@ Esses exemplos demonstram a declaração e atribuição de variáveis em Go, bem
 ## Desafios Iniciante 
 
 ### Manipulação de Variáveis e Tipos de Dados em Go:
+✅ *Concluido*
 
 **Objetivo**: Criar um programa em Go que recebe informações básicas de um usuário, como nome, idade e altura, e exibe essas informações formatadas.
 
@@ -270,5 +271,66 @@ Altura: 1.65 metros
 
 ```
 *Dica*: Lembre-se de converter a idade para string ao incorporá-la à mensagem formatada.
+
+### Desafio Iniciante - Cálculo de Índice de Massa Corporal (IMC) em Go:
+
+**Objetivo**: Criar um programa em Go que calcula o Índice de Massa Corporal (IMC) com base no peso e altura fornecidos pelo usuário.
+
+**Passos**:
+
+1. Crie um programa Go que inclua as bibliotecas necessárias.
+2. Declare variáveis para armazenar o peso (float64) e altura (float64) do usuário.
+3. Utilize a função fmt.Print para solicitar ao usuário que insira seu peso (em kg).
+4. Utilize a função fmt.Scanln para ler o peso inserido pelo usuário e armazená-lo na variável correspondente.
+5. Repita os passos 3-4 para solicitar e armazenar a altura do usuário (em metros).
+6. Calcule o IMC usando a fórmula: IMC = peso / (altura * altura).
+7. Exiba o IMC calculado de forma formatada usando fmt.Printf.
+8. Adicione mensagens informativas ao resultado, indicando se o usuário está abaixo do peso, com peso normal, acima do peso ou obeso, com base nas seguintes faixas:
+- Menos de 18,5: Abaixo do peso
+- 18,5 a 24,9: Peso normal
+- 25 a 29,9: Acima do peso
+- 30 ou mais: Obeso
+
+*Exemplo de saída esperada*:
+```yml
+Digite seu peso (em kg): 70.5
+Digite sua altura (em metros): 1.75
+
+Seu IMC é 23.02 - Peso Normal
+
+```
+
+*Dica*: Utilize fmt.Printf para formatar a saída com o IMC e a mensagem correspondente. Considere a utilização de condicionais (if, else) para determinar a categoria do IMC.
+## Laços de repetição
+### Desafio Intermediário - Manipulação de Strings e Estruturas de Controle em Go:
+
+**Objetivo**: Criar um programa em Go que verifica se uma palavra ou frase é um palíndromo.
+
+**Passos**:
+
+1. Crie um programa Go que inclua as bibliotecas necessárias.
+
+2. Solicite ao usuário que insira uma palavra ou frase.
+
+3. Use a função fmt.Scanln para ler a entrada do usuário e armazenar a palavra ou frase em uma variável.
+
+4. Implemente uma função que verifica se a palavra ou frase é um palíndromo. Um palíndromo é uma palavra, frase, número ou outra sequência de caracteres que lê da mesma forma para frente e para trás, desconsiderando espaços, pontuações e maiúsculas/minúsculas. Exemplos de palíndromos: "radar", "Ame a ema", "Anita lava a tina".
+
+5. Exiba na tela se a palavra ou frase fornecida é ou não um palíndromo.
+
+*Exemplo de Saída Esperada*:
+```yml
+Digite uma palavra ou frase: radar
+"radar" é um palíndromo.
+
+OU
+
+Digite uma palavra ou frase: Programar é divertido
+"Programar é divertido" não é um palíndromo.
+
+```
+*Dica*: Utilize funções do pacote strings para manipulação de strings e considere ignorar espaços, pontuações e diferenças entre maiúsculas e minúsculas ao verificar se a palavra ou frase é um palíndromo. Use estruturas de controle de fluxo (for, if, else) para implementar a lógica de verificação.
+
+
 
 #### Este desafio é projetado para ajudar a praticar a declaração de variáveis, entrada/saída básica e formatação em Go. Boa sorte!
